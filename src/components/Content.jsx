@@ -37,7 +37,7 @@ function Content() {
                 variant="top"
                 src={fotoimage}
                 alt="usuario"
-                rounded
+
               />
                 <Card.Title className="text-center">
                 Mario Alberto Simbala Mendoza

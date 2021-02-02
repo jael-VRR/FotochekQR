@@ -6,8 +6,12 @@
     min-height: 100vh;
     background: #990000;
     background-image: url('../images/stats.jpg');
+   
   }
-  
+  .abs-center.hover{
+    -webkit-transform: translateX(130px);
+    transform: translateX(130px);
+  }
   .form {
     width: 450px;
     border: solid 1px;
@@ -24,6 +28,7 @@
     height:250px ;
     margin-top: 10px;
     padding: 0px 20px 0px 20px;
+    border-radius: 10px;
     
     
   }
@@ -38,8 +43,12 @@
       color: white;
   }
   .codigo-unico{
-    width: 250px;  
-    height:80px ;
+    width: 100px;  
+    height:100px ;
     margin-top: 10px;
-    padding: 0px 15px 15px 15px;
+    padding: 0px 95px 15px 95px;
   }
+  @keyframes abs-center{
+    from {top: -260%;}
+    to {top: 100%;}
+ }
